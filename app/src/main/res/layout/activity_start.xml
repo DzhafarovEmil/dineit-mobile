@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/layer_splash"
+            android:layout_marginBottom="@dimen/margin_32"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginStart="@dimen/margin_8">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="@string/log_in"
+                android:textColor="@color/signUpTextFocused"
+                android:background="@drawable/registration_bg_rounded_focused_dark"
+                android:elevation="8dp"
+                android:layout_margin="@dimen/margin_8"/>
+            
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnRegister"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="@string/register"
+                android:textColor="@color/signUpTextFocused"
+                android:elevation="8dp"
+                android:background="@drawable/registration_bg_rounded_focused_dark"
+                android:layout_margin="@dimen/margin_8"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</RelativeLayout>

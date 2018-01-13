@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <stroke
+                android:width="4dp"
+                android:color="@color/borderTextInputReg" />
+        </shape>
+    </item>
+    <item
+        android:right="@dimen/margin_32"
+        android:left="@dimen/margin_32"
+        android:bottom="@dimen/margin_32"
+        android:top="@dimen/margin_32"
+        android:drawable="@drawable/ic_local_dining_splash_96dp" />
+</layer-list>

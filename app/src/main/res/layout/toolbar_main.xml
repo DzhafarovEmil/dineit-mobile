@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_toolbar"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:titleTextColor="@color/colorPrimary"
+        android:background="@color/main_toolbar"
+        app:contentInsetStartWithNavigation="0dp"/>
+    
+    <ImageButton
+        android:id="@+id/ibDoneOrder"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:background="@null"
+        android:src="@drawable/ic_done_primary_24dp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/ibExit"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:background="@null"
+        android:src="@drawable/ic_exit_from_app_24dp"
+        android:visibility="gone"/>
+    
+</LinearLayout>

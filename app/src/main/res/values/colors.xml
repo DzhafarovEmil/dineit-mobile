@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">@color/main_bg</color>
+
+    <color name="colorPrimaryLight">#efefef</color>
+    <color name="colorPrimaryDarkLight">#bcc1c4</color>
+    <color name="colorAccentLight">@color/main_bg</color>
+    
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="light_gold">#ffd44e</color>
+    <color name="accent">#be9c32</color>
+    <color name="white">#fff</color>
+    <color name="main_bg">@color/colorPrimaryLight</color>
+    <color name="main_toolbar">@color/white</color>
+    <color name="warm_grey">#919191</color>
+    <color name="active_bottom_menu">@color/colorPrimary</color>
+    <color name="inactive_bottom_menu">@color/colorPrimaryDarkLight</color>
+    <color name="transparent_light">#5389aab9</color>
+    <array name="tab_colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+    <color name="start_enable">#C5C36C</color>
+    <color name="end_enable">#ffd44e</color>
+    <color name="start_disable">#83B286</color>
+    <color name="end_disable">#9FB97B</color>
+    <color name="signUpTextFocused">@color/white</color>
+    <color name="signUpHint">#7fffffff</color>
+    <color name="borderTextInputReg">#bcfff9</color>
+
+    <color name="start_settings">#6daea0</color>
+    <color name="end_settings">#31cfad</color>
+    
+</resources>

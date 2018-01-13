@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8"
+        android:paddingTop="@dimen/margin_8"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tvSocialNetworkName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tvSocialNetworkURL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/colorPrimary"
+            android:gravity="start"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8"/>
+    
+</LinearLayout>
