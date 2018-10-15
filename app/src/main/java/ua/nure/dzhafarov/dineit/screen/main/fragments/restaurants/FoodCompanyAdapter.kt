@@ -28,14 +28,15 @@ class FoodCompanyAdapter(private val foodCompanies: MutableList<FoodCompany>,
         holder.itemView.setOnClickListener { listener.onClick(restaurant) }
         holder.itemView.tvRestaurantName.text = restaurant.name
         holder.itemView.tvRestaurantPhoneNumber.text = restaurant.phoneNumber
-        
-        Picasso
-                .with(context)
-                .load(restaurant.imageURL)
-                .fit()
-                .centerCrop()
-                .into(holder.itemView.ivRestaurantAvatar)
 
+        if (restaurant.imageURL.isNotEmpty()) {
+            Picasso
+                    .with(context)
+                    .load(restaurant.imageURL)
+                    .fit()
+                    .centerCrop()
+                    .into(holder.itemView.ivRestaurantAvatar)
+        }
     }
 
     override fun getItemCount(): Int {
